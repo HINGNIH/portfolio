@@ -1,0 +1,105 @@
+.profile {
+    box-sizing: border-box;
+}
+.profile_wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left:100px;
+}
+.profile h2 {
+    display: none;
+}
+.desc_left {
+    width: 300px;
+}
+.pic {
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    background-image: url('/profile/seohuiwon_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.desc_left h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top:90px;
+}
+.desc_left h3 span {
+    font-size: 20px;
+    margin-left: 15px;
+}
+.desc_left ul {
+}
+.desc_left ul li {
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.desc_left ul li b {
+    display: inline-block;
+    width: 90px;
+}
+.desc_left ul li strong {
+    margin-left: 15px;
+}
+.desc_left p {
+    margin-top: 20px;
+}
+.desc_left p a {
+    margin-right: 20px;
+}
+.desc_left p a i {
+    font-size: 30px;
+}
+.github_btn {
+    margin:  25px 10px;
+    padding: 10px;
+    border: 2px #488BFF solid;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #488BFF;
+    display: flex; /* 가로 정렬을 위한 flex 설정 */
+    align-items: center; /* 세로 정렬을 위한 설정 */
+    justify-content: center; /* 가로 정렬을 위한 설정 */
+    gap: 10px; /* 이미지와 텍스트 사이 간격 조절 */
+    background-color: transparent; /* 기본 배경은 투명 */
+    transition: background-position 0.8s ease, color 0.2s ease, border-color 0.2s ease; /* 트랜지션 설정 */
+}
+.github_btn:hover {
+    color: white; /* 호버 시 텍스트 색상 하얀색으로 변경 */
+    border-color: #488BFF; /* 호버 시 테두리 색상 파란색 */
+    background-color: #488BFF;
+}
+.github_btn .github_icon {
+    transition: color 0.3s ease;
+    color : #488BFF;
+  }
+  .github_btn:hover .github_icon {
+    color:white;
+  }
+
+.desc_right{
+   width: 600px;
+}
+.desc_right li {
+    margin-bottom: 37px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtitle {
+ width: 100px;
+}
+.subtitle b {
+    margin-left: 10px;
+    font-weight: 500;
+}
+.subtitle_text strong {
+    display: block;
+    font-size: 16px;
+}

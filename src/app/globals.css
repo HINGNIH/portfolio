@@ -1,0 +1,68 @@
+@import 'reset-css';
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 공통 css 처리  */
+
+header,
+main,
+footer {
+    width: 100%;
+    
+}
+
+.inner {
+    width:1100px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: transparent;
+}
+#header .inner {
+    height: 60px;
+}
+
+#footer {
+    background: #333;
+}
+#footer .inner {
+    padding: 100px 0;
+    text-align: center;
+    color:#dcdcdc
+}
+#footer .inner .cta {
+    font-size: 20px;
+    color:#448fff;
+}
+img {
+    vertical-align: top;
+}
+.main .inner {
+    padding: 120px 0;
+}
+.main h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    line-height: 1;
+}

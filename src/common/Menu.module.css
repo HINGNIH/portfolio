@@ -1,0 +1,28 @@
+/* 클래스 안에 클래스 넣지 않기 하위는 요소만 */
+.nav {
+    position: absolute;
+    top:50%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.nav ul {
+    display: flex;
+    
+}
+.nav ul li {
+    margin-left: 80px;
+}
+.nav ul li a {
+    font-size: 18px;
+    font-weight:500;
+    color: #000;
+    transition: color 0.3s ease,font-size 0.3s ease;
+}
+
+.nav ul li a.active {
+    color: #4488ff; /* 활성화된 메뉴 색상 */
+    /* font-weight: 700; */
+    font-size: 20px;
+}

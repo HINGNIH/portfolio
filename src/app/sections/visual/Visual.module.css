@@ -1,0 +1,62 @@
+.visual {
+    
+}
+.visual_inner {
+    min-width: 100%;
+    background-color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    box-sizing: border-box; 
+}
+.visual_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visual img {
+    height: 300px;
+    width: 300px;
+}
+
+.visual p {
+    font-size: 30px;
+    font-weight:300;
+    opacity: 0.8;
+    color: #666;
+}
+.visual_textbox {
+    width:500px;
+    height:200px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.visual_content h2 {
+    line-height: 1.2;
+    font-size: 55px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.visual_content h2 span {
+    display: block; /* 줄바꿈 효과 */
+    overflow: hidden; /* 글자 넘침 방지 */
+    white-space: nowrap; 
+   
+}
+.highlight {
+    color: blue; /* 파란색으로 강조 */
+    font-weight: bold; /* 강조를 더 강하게 보이게 할 수 있음 */
+}
+@keyframes blink {
+    from {
+        border-right-color: #000;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
