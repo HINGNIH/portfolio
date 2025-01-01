@@ -1,4 +1,4 @@
-import { Profile, Visual, Skills, Projects, Contact} from './sections';
+import { Profile, Visual, Skills, Projects} from './sections';
 
 const Home = () => {
     return (

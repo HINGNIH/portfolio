@@ -6,7 +6,6 @@ export const Footer = () => {
             <div className='inner'>
                 <div className='cta'>
                     <p>Looking for a passionate front-end developer?</p> 
-                    <p>Let's connect!</p>
                     <p>Feel free to drop me a message.</p>
                 </div>
                     <div>

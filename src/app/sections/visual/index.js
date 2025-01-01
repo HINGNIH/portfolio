@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './Visual.module.css';
+import Image from 'next/image';
 
 export const Visual = () => {
 
@@ -36,7 +37,7 @@ export const Visual = () => {
         <section className={styles.visual} id='visual'>
             <div className={styles.visual_inner}>
                 <div className={styles.visual_content}>
-                    <img src='/visual/mimo2.png' alt='서희원의 미모티콘'></img>
+                    <Image src='/visual/mimo2.png' alt='서희원의 미모티콘' width={300} height={300}/>
                     <div className={styles.visual_textbox}>
                         <h2>
                         {displayText.map((line, index) => (
